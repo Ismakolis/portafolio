@@ -1,0 +1,190 @@
+/*Estilos del header*/
+header .contenedor {
+    height: 500px;
+    background-image: url(../imagenes/bg.jpg);
+}
+
+header .contenedor .menu {
+    color: white;
+    width: 100%;
+    padding: 30px;
+}
+
+header .contenedor .menu a {
+    color: white;
+    padding-left: 100px;
+    left: 650px;
+    position: relative;
+    margin: 33px;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+header .contenedor-texto {
+    border: 1px solid white;
+    width: 30%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 35%;
+
+}
+
+header .texto .nombre {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 60px;
+}
+
+header .texto .profesion {
+    color: white;
+    font-family: monospace;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: -20px;
+}
+
+/*fin estilos header*/
+/*Estilos del main*/
+.main .acerca-de .foto {
+    position: relative;
+    margin-top: -80px;
+    margin-left: 45%;
+    width: 190px;
+    height: 190px;
+}
+
+.main .acerca-de .foto img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.main .acerca-de .texto {
+    position: relative;
+    top: 25px;
+    text-align: center;
+}
+
+.main .acerca-de .titulo {
+    color: chocolate;
+    font-size: 40px;
+}
+
+.main .acerca-de .texto p {
+    font-size: 30px;
+}
+
+.main .acerca-de .texto span {
+    color: rgb(40, 40, 255);
+}
+
+.main .trabajos {
+    position: relative;
+    margin-top: 100px;
+    background-image: url(../imagenes/45degreee_fabric.webp);
+    background-repeat: repeat;
+    height: 1200px;
+    overflow: hidden;
+
+}
+
+.main .trabajos .contenedor .titulo {
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+.main .trabajos .contenedor-trabajos {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+}
+
+.main .trabajos .contenedor-trabajos .trabajo {
+    width: 20%;
+    overflow: hidden;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    margin-right: 36px;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo img {
+    width: 100%;
+}
+
+.main .trabajos .contenedor-trabajos .descripcion .nombre {
+    text-align: center;
+    color: blue;
+}
+
+/*inicio del footer*/
+footer .contacto .contenedor .titulo {
+    margin-top: 80px;
+    color: rgb(97, 119, 241);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer .contacto .contenedor .formulario {
+    overflow: hidden;
+    padding-left: 22%;
+}
+
+footer .contacto .contenedor .formulario .campo {
+    border: 1px solid #525252;
+    width: 30%;
+    margin: 20px;
+    padding: 15px;
+
+}
+
+footer .contacto .contenedor .formulario .mensaje {
+    border: 1px solid #525252;
+    width: 65%;
+    height: 80px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+
+footer .contacto .contenedor .formulario .boton {
+    width: 15%;
+    height: 50px;
+    background-color: rgb(97, 119, 241);
+    margin-left: 28%;
+    border: 1px solid white;
+    color: white;
+}
+
+footer .redes-sociales {
+    margin-bottom: 20px;
+    background-color: #121430;
+    height: 130px;
+    padding: 50px;
+}
+
+footer .redes-sociales .contenedor {
+    margin-bottom: 250px;
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 30px;
+}
+
+footer .redes-sociales .contenedor a {
+    color: white;
+    font-size: 40px;
+    padding: 50px;
+
+}
+
+/*fin estilos del footer*/
